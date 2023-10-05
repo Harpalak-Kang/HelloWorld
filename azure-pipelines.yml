@@ -7,7 +7,8 @@ trigger:
 - main
 
 pool:
-  vmImage: 'macos-latest'
+  # vmImage: 'macos-latest'
+  name: local
 
 steps:
 - task: Xcode@5
